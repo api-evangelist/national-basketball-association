@@ -1,17 +1,30 @@
 aid: national-basketball-association
-url: https://raw.githubusercontent.com/api-evangelist/national-basketball-association/refs/heads/main/apis.yml
 name: National Basketball Association
+description: >-
+  The National Basketball Association (NBA) is the premier men's professional
+  basketball league in North America, comprised of 30 franchises (29 in the
+  United States and 1 in Canada). The NBA does not operate a public developer
+  portal; statistical, scoring, and play-by-play data feeds are licensed
+  through official partners (notably Sportradar and Genius Sports). The
+  stats.nba.com endpoints are not officially documented as a public API.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Sports
   - Basketball
   - Entertainment
-description: 'A professional basketball league consisting of 30 teams across the United States and Canada. One of the most popular and globally recognized sports leagues with a massive international fanbase.'
+  - Professional League
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/national-basketball-association/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
-    url: https://www.walmart.com/
+    url: https://www.nba.com/
+  - type: Stats
+    url: https://www.nba.com/stats/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
