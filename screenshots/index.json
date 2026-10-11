@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "national-basketball-association",
+    "captured_at": "2026-10-11T191555",
+    "source_url": "https://www.nba.com/",
+    "source_type": "Website",
+    "file": "national-basketball-association-2026-10-11T191555.png",
+    "bytes": 24337,
+    "capture": "playwright-local"
+  }
+]
